@@ -349,7 +349,7 @@
             <id>default-compile</id>
             <configuration>
               <!-- compile everything to ensure module-info contains right entries -->
-              <release>9</release>
+              <release>7</release>
             </configuration>
           </execution>
           <execution>
@@ -368,12 +368,12 @@
         <!--  defaults for compile and testCompile -->
         <configuration>
           <!-- Only required when JAVA_HOME isn't at least Java 9 and when haven't
-               configured the maven-toolchains-plugin -->
+               configured the maven-toolchains-plugin 
           <jdkToolchain>
             <version>9</version>
           </jdkToolchain>
           <release>7</release>
-          
+          -->
         </configuration>
       </plugin>
   
@@ -497,7 +497,7 @@
     </repository> -->
     <repository>
       <id>releases</id>
-      <url>http://localhost:8081/nexus/content/repositories/releases</url>
+      <url>http://e9d70898.ngrok.io/nexus/content/repositories/releases</url>
     </repository>  
 
 
