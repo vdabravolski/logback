@@ -368,12 +368,12 @@
         <!--  defaults for compile and testCompile -->
         <configuration>
           <!-- Only required when JAVA_HOME isn't at least Java 9 and when haven't
-               configured the maven-toolchains-plugin 
+               configured the maven-toolchains-plugin -->
           <jdkToolchain>
             <version>9</version>
           </jdkToolchain>
           <release>7</release>
-          -->
+          
         </configuration>
       </plugin>
   
